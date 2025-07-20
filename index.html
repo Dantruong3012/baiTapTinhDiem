@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tổ hợp điểm</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <div id="container">
+      <form action="#" method="get">
+        <fieldset>
+          <legend>Math</legend>
+          <label for="review test">review test</label>
+          <input id="math1" type="number" min="0" max="10" /><br /><br />
+          <label for="midterm test">midterm test</label>
+          <input id="math2" type="number" min="0" max="10" /><br /><br />
+          <label for="final test">final test</label>
+          <input id="math3" type="number" min="0" max="10" /> <br /><br />
+          <p id="a">Average:</p>
+          <button onclick="kieu()" name="average">average</button>
+        </fieldset>
+        <br /><br />
+
+        <fieldset>
+          <legend>Biology</legend>
+          <label for="review test">review test</label>
+          <input id="bi1" type="number" min="0" max="10" /><br /><br />
+          <label for="midterm test">midterm test</label>
+          <input id="bi2" type="number" min="0" max="10" /><br /><br />
+          <label for="final test">final test</label>
+          <input id="bi3" type="number" min="0" max="10" /> <br /><br />
+          <p id="b">Average:</p>
+          <button onclick="dan()" name="average">average</button>
+        </fieldset>
+        <br /><br />
+
+        <fieldset>
+          <legend>Chemistry</legend>
+          <label for="review test">review test</label>
+          <input id="che1" type="number" min="0" max="10" /><br /><br />
+          <label for="midterm test">midterm test</label>
+          <input id="che2" type="number" min="0" max="10" /><br /><br />
+          <label for="final test">final test</label>
+          <input id="che3" type="number" min="0" max="10" /> <br /><br />
+          <p id="c">Average:</p>
+          <button onclick="truong()" name="average">average</button>
+        </fieldset>
+      </form>
+      <br /><br />
+      <p id="v">Total average:</p>
+      <button onclick="o()">click me to see total average</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
